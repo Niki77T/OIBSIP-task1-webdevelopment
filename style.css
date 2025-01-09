@@ -1,0 +1,393 @@
+.navbar{
+    height: 70px;
+    background-color: white;
+    background-size: cover;
+    display: flex;
+    color: black;
+    justify-content: space-around;
+    justify-items: flex-end;
+    padding-top: 5px;
+    padding: 0;
+    margin: 0;
+}
+
+.logo{
+    background-image: url("starbucks_logo.png");
+    background-size: cover;
+    background-position: left;
+    height: 65px;
+    width: 65px;
+}
+
+
+.nav-logo{
+    display: block;
+    height: 100%;
+    width: 20%;
+    justify-items:space-evenly;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    display: inline;
+    background-color: #fffcfc;
+    border-radius: 10px;
+    box-sizing: border-box;
+    border-width: 40px;
+}
+
+.nav-end{
+    display: block;
+   padding-top: 20px;
+   width: 50px;
+   height: 60px;
+   justify-items: space-evenly;
+   
+  
+}
+.nav-below{
+    display: flex;
+    height: 80px;
+    width: 100%;
+    background-color: rgb(57, 77, 57);
+    justify-items: flex-end;
+    margin: 0;
+    justify-content: space-around;
+    color: white;
+    font-size: large;
+}
+/* .options p{
+    font-size: larger;
+    height: 200px;
+    width: 300px;
+    margin-bottom: 0;
+    padding-left: 25px;
+} */
+ .options{
+    padding-left: 50px;
+    padding-right: 25px;
+    justify-content: center;
+ }
+ .shop-section{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 0;
+    padding-bottom: 30px;
+    font-weight: 0;
+    color: white;
+    font-size: smaller;
+    font-family: sans-serif;
+} 
+ .box{
+    height: 100px;
+    width: 100px;
+    border: 2px solid rgb(134, 228, 134);
+    border-radius: 7px;
+    display: flex;
+    /* margin-bottom: 500px;
+    margin-bottom: 60%; */
+} 
+.b1{
+    background-position: 100%;
+    background-size: cover;
+    height: 100px;
+    width: 120px;
+    display: flex;
+}
+
+.footer {
+    background-color:  rgb(57, 77, 57);
+    color: white;
+    padding: 40px 20px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.footer-top {
+    display: flex;
+    background-color:  rgb(57, 77, 57);
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.footer-top .logo img {
+    height: 60px;
+}
+
+.footer-links ul {
+    list-style-type: none;
+
+}
+
+.footer-links ul li {
+    margin-bottom: 10px;
+
+}
+
+.footer-links ul li a {
+    color: white;
+    font-weight: 200;
+    display: block;
+    font-size: 20px;
+    padding-bottom: 6px;
+    margin-top: 10px;
+    text-align: center;
+
+}
+.footer-links p{
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.footer-links2 ul a {
+    display: block;
+    color: white;
+    font-weight: 200;
+    display: block;
+    font-size: 20px;
+    padding-bottom: 6px;
+    margin-top: 10px;
+    text-align: center;
+    text-decoration: underline;
+}
+.footer-links2 p{
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.footer-links ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Bottom Styles */
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.social-media {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    /* margin-right: 20px; */
+}
+
+.social-media a {
+    color: white;
+    text-decoration: none;
+    margin-right: 30px;
+    /* padding-left: 160px; */
+    margin-top: 20px;
+    font-size: 16px;
+
+}
+
+.social-media a:hover {
+    text-decoration: underline;
+}
+
+.social-media .facebook:hover {
+    color: #3b5998;
+}
+
+.social-media .twitter:hover {
+    color: #00acee;
+}
+
+.social-media .instagram:hover {
+    color: #c13584;
+}
+
+/* App Store Icons Section */
+.app-stores {
+    background-image: url('download.png');
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.app-stores a {
+    margin-top: 10px;
+}
+
+.app-stores img {
+   
+    width: 130px;
+    margin: 5px ;
+    background-size: cover;
+    background-position: left;
+    height: 65px;
+    width: 65px;
+}
+
+/* Footer Copyright */
+.footer-copyright {
+    margin-top: 20px;
+    font-size: 12px;
+    padding-top: 20px;
+    display: block;
+    color: white;
+}
+.content{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 600px;
+    padding-bottom: 300px;
+    padding-inline-start: 300px;
+    padding-right: 200px;
+}
+.text-box{
+    position: relative;
+    max-width: 500px;
+
+}
+.text-box h2{
+    color: #333;
+    font-size: 2em;
+    line-height: 1.5em;
+    font-weight: 500;
+    padding-right: 10%;
+    margin-right: 100px;
+    padding-top: 100px;
+}
+.text-box h2 span{
+    color: #017143;
+    font-size: 1.2em;
+    font-weight: 900;
+    /* margin-right: 100px; */
+}
+.text-box p{
+color: #333;
+}
+.img-box{
+    background-image: url('Starbucks_Japan_Flavors_1_2048x.webp');
+    background-position: 100%;
+    background-size: contain;
+    padding-left: 400px;
+    margin-right: 500px;
+    margin-top: 150px;
+    height: 300px;
+    width: 110px;
+    display: flex;
+}
+.main-content{
+  padding: 0%;
+  margin: 0%;
+}
+.main-content h2{
+    color: #4b4949;
+    font-size: 4em;
+    line-height: 1.5em;
+    font-weight: 500;
+}
+
+.main-content p{
+    color: rgb(118, 75, 75);
+    font-size: 0.5em;
+    font-weight: 100;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 0;
+    margin: 0;
+    line-height: 1em;
+} 
+button{
+    border-radius: 20px;
+    color: black;
+    background-color: grey;
+    size: 20px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.main{
+    background-image: url('images.jpg');
+    background-position: relative;
+    width:100%;
+    height: 300px;
+    background-position: 100%;
+    background-size: cover;
+    height: 80px;
+    width: 1200px;
+    height: 800px;
+    margin-left: 20px;
+    display: flex;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+}
+
+.view-more {
+    font-size: 18px;
+    color: #4CAF50;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.view-more:hover {
+    text-decoration: underline;
+}
+
+.barista-recommends {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.barista-recommends h2 {
+    font-size: 28px;
+    color: #333;
+}
+
+.recommendations {
+    display: flex;
+    justify-content: space-around; /* Distribute items evenly horizontally */
+    margin-top: 30px;
+}
+
+.recommendation {
+    text-align: center;
+}
+
+.recommendation img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.recommendation h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.recommendation p {
+    font-size: 18px;
+    color: #555;
+}
+
